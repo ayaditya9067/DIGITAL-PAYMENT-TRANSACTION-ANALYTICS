@@ -22,8 +22,7 @@ README.md: Project overview and key findings.
 
 **Summary of SQL Analysis (Q1 – Q50)**
 The queries in 02_analysis_queries.sql cover four main functional areas:
-1. Platform Performance & Payment Channels (Q1–Q12, Q18–Q19, Q37–Q38):
-   
+1. Platform Performance & Payment Channels (Q1–Q12, Q18–Q19, Q37–Q38): 
 Evaluated platform transaction counts, overall Gross Merchandise Value (GMV), and status breakdowns (Success, Failed, Pending, Reversed).
 Compared payment channels (UPI, Credit/Debit Cards, NetBanking) across volume, total value, average ticket size, and channel success/failure rates.
 3. Merchant & Customer Analytics (Q13–Q17, Q21–Q23, Q31–Q36, Q40, Q50):
