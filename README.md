@@ -2,6 +2,7 @@
 SQL analytical project querying a digital payments database across 50 business questions. Features multi-table JOINs, aggregations, CTEs, and window functions to evaluate transaction success/failure rates, merchant GMV, customer spend behavior, refunds, settlements, processing fees, and risk scores.
 
 A database design and SQL analytics project for PayFlow, a digital payments platform. This project covers 3NF database schema design, constraint enforcement, sample data population, and 50 SQL queries solving core business problems.
+
 **Relational Schema (3NF)**
 
 The database consists of 8 core tables with PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, and CHECK constraints:
@@ -35,6 +36,13 @@ Evaluated transaction completion rates across risk score levels ($0–100$) and 
 Measured completed refund amounts and calculated merchant refund percentages against successful GMV.
 Monitored pending vs. settled payout balances per merchant.
 Calculated total processing fees collected and average fee yield per successful transaction.
+
+**How to Run**
+Open your SQL client (MySQL / PostgreSQL).
+
+Run 01_schema_and_data.sql to initialize the database and load sample data.
+
+Execute 02_analysis_queries.sql to view solutions for all 50 questions.
 
 
 
